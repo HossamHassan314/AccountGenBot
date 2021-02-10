@@ -48,7 +48,7 @@ Welcome To {Config.ACCOUNT_GEN_NAME} Account Generator Bot
 To Know About commands type:
 /cmds
 
-Bot Made With ❤️ By @DevseXpo**
+Bot Made With ❤️ By @O1_07**
 """ 
     await event.reply(user_text) 
     
@@ -79,7 +79,8 @@ async def hmm(event):
     	if starky is False:
         	await event.reply("**I am Sorry To Say That, To Access Me You Have To Be The Member Of Our Channel To Use This Bot..!**", buttons=[[custom.Button.url("Join Channel", Config.CHANNEL_URL)]])
         	return
-    hmmw = await event.reply("**Generating Account...Stay Tuned.**")
+    hmmw = await event.reply("**Your Daily Limit is exhausted 
+By The Way Daily Limit is 2 accounts per day.**")
     if warner.is_user_in_db(int(event.sender_id)):
         hmm = warner.get_user_info(int(event.sender_id))
         if warner.is_user_in_db(int(event.sender_id)) >= Config.GEN_LIMIT_PERDAY:
