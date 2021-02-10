@@ -10,6 +10,6 @@ class Config(object):
     JTU_ENABLE = os.environ.get("JTU_ENABLE", True)
     CHANNEL_USERNAME = os.environ.get("CHANNEL_USERNAME", "O1_007")
     CHANNEL_URL = os.environ.get("CHANNEL_URL", "https://t.me/O1_007")
-    DUMB_CHAT = int(os.environ.get("DUMB_CHAT", False))
+    DUMB_CHAT = int(os.environ.get("DUMB_CHAT", True))
     OWNER_ID = int(os.environ.get("OWNER_ID", None))
     GEN_LIMIT_PERDAY = int(os.environ.get("GEN_LIMIT_PERDAY", 2))
