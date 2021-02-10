@@ -9,7 +9,7 @@ class Config(object):
     ACCOUNT_GEN_NAME = os.environ.get("ACCOUNT_GEN_NAME", "Mail access")
     JTU_ENABLE = os.environ.get("JTU_ENABLE", False)
     CHANNEL_USERNAME = os.environ.get("CHANNEL_USERNAME", None)
-    CHANNEL_URL = os.environ.get("CHANNEL_URL", "https://www.t.me/O1_007")
+    CHANNEL_URL = os.environ.get("CHANNEL_URL", t.me/O1_007)
     DUMB_CHAT = int(os.environ.get("DUMB_CHAT", False))
     OWNER_ID = int(os.environ.get("OWNER_ID", None))
     GEN_LIMIT_PERDAY = int(os.environ.get("GEN_LIMIT_PERDAY", 2))
