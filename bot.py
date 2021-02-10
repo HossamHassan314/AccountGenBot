@@ -49,6 +49,8 @@ To Know About commands type:
 /cmds
 
 Bot Made With ❤️ By @O1_07**
+
+our channel @O1_007
 """ 
     await event.reply(user_text) 
     
@@ -65,7 +67,7 @@ My Commands Are As Follows:
 
 /start - To Restart Bot..!
 /cmds - To Get Help Menu
-/generate - To Generate Zee5 Accounts
+/generate - To Generate Mail access Accounts
 /about - To Get Your Current Info
 
 Share And Support Us...❤️**
