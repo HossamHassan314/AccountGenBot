@@ -8,7 +8,7 @@ class Config(object):
     API_ID = int(os.environ.get("API_ID", 6))
     ACCOUNT_GEN_NAME = os.environ.get("ACCOUNT_GEN_NAME", "Mail access")
     JTU_ENABLE = os.environ.get("JTU_ENABLE", False)
-    CHANNEL_USERNAME = os.environ.get("CHANNEL_USERNAME", O1_007)
+    CHANNEL_USERNAME = os.environ.get("CHANNEL_USERNAME", None)
     CHANNEL_URL = os.environ.get("CHANNEL_URL", t.me/o1_07)
     DUMB_CHAT = int(os.environ.get("DUMB_CHAT", False))
     OWNER_ID = int(os.environ.get("OWNER_ID", None))
