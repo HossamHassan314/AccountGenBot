@@ -85,7 +85,7 @@ async def hmm(event):
     if warner.is_user_in_db(int(event.sender_id)):
         hmm = warner.get_user_info(int(event.sender_id))
         if warner.is_user_in_db(int(event.sender_id)) >= Config.GEN_LIMIT_PERDAY:
-            await hmmw.edit(f"**Your Daily Limit is exhausted, Kindly Contact the admins to increase ur limit\n\nBy The Way Daily Limit is {Config.GEN_LIMIT_PERDAY} accounts per day**", buttons=[[custom.Button.url("Join Channel", Config.CHANNEL_URL)]])
+            await hmmw.edit(f"**Your Daily Limit is exhausted,By The Way Daily Limit is {Config.GEN_LIMIT_PERDAY} accounts per day**", buttons=[[custom.Button.url("Join Channel", Config.CHANNEL_URL)]])
             return
         warner.update_user_usage(int(event.sender_id), int(1))
     else:
